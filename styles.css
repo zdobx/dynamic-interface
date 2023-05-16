@@ -31,6 +31,7 @@ body, html {
     background-color: brown;
     height: 50px;
     opacity: 0;
+    position: relative;
 }
 
 .dropdown-explore {
@@ -39,8 +40,10 @@ body, html {
     align-items: center;
 }
 
+
+
 .dropdown.active {
-    height: 80px;
+    height: 200px;
     opacity: 1;
     transition: all 0.8s;
 }
@@ -53,9 +56,36 @@ body, html {
     border-radius: 10px;
     background-color: rgb(250, 211, 160);
     border: none;
-
-
+    margin-top: 20px;
+    opacity: 1;
 }
+
+.exploreBtn {
+    margin-top: 150px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+    margin: 10px;
+    opacity: 0;
+    background-color: rgb(248, 248, 248);
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 1px 4px 0px;
+}
+
+.link:hover ~ .content {
+    opacity: 1;
+    transition: all 0.8s;
+    
+    
+} */
+
+
 
 
 /* a {

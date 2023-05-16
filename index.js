@@ -22,3 +22,11 @@ btn.onclick = function () {
 };
 
 
+//ChatGPT idea. However, it displays all secondary content at once with no transition etc. 
+
+// function showContent() {
+//   let contentButtons = document.getElementsByClassName("content");
+//   for (var i = 0; i < contentButtons.length; i++) {
+//     contentButtons[i].style.display = "flex";
+//   }
+// }
